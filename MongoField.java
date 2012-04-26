@@ -1,3 +1,5 @@
+/* Author: Terence Parr */
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
