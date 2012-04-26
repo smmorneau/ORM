@@ -1,0 +1,21 @@
+Author:       Steely Morneau
+Project:      ORM
+Last updated: March 2012
+-----------------------------
+
+Summary:
+An object-relational-mapping from Java objects to MongoDB using annotations.
+The ORM can save individual objects and collections of objects to a database 
+    and then load them back.
+Only serializes and deserializes fields that are:
+    - prefixed with @MongoField
+    - Strings
+    - primitive types    
+Only allows collections whose values or keys are mongo collections.
+
+Limitations:
+Works with Collections but does not work with Maps.
+
+Usage: 
+java TestORM
+to run the provided test file (an Employee-Manager database) while MongoDB is running
