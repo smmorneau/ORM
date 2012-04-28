@@ -6,7 +6,7 @@ Last updated: March 2012
 Summary:
 An object-relational-mapping from Java objects to MongoDB using annotations.
 The ORM can save individual objects and collections of objects to a database 
-    and then load them back.
+    and retrieve them.
 Only serializes and deserializes fields that are:
     - prefixed with @MongoField
     - Strings
